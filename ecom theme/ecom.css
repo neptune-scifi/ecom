@@ -1,0 +1,169 @@
+/* ..................................... 
+
+fontes
+
+..................................... */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;800;900&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif !important;
+    background-color: #f2f2f2;
+}
+
+/* ..................................... 
+
+direção de arte
+
+..................................... */
+:root {
+    --color1: #e31e7f;
+    --color2: #ffffff;
+    --color3: #0e0f10;
+    --color4: #aba58d;
+    --color5: #666666;
+    --color6: #121315;
+}
+::selection {      background: var(--color1); }
+::-moz-selection { background: var(--color1); }
+
+.c1{ color: var(--color1) !important; }
+.c2{ color: var(--color2) !important; }
+.c3{ color: var(--color3) !important; }
+.c4{ color: var(--color4) !important; }
+.c5{ color: var(--color5) !important; }
+.c6{ color: var(--color6) !important; }
+
+.bg1{ background-color: var(--color1) !important; }
+.bg2{ background-color: var(--color2) !important; }
+.bg3{ background-color: var(--color3) !important; }
+.bg4{ background-color: var(--color4) !important; }
+.bg5{ background-color: var(--color5) !important; }
+.bg6{ background-color: var(--color6) !important; }
+
+.is-color{
+    background-color: var(--color1) !important;
+    color: var(--color2) !important;
+    border-radius: 10 !important;
+    border: 0 !important;
+}
+.is-color:hover{
+    color: var(--color2) !important;
+    background-color: var(--color1) !important;
+}
+.is-color:focus{
+    color: var(--color1) !important;
+    background-color: #f2f2f2 !important;
+}
+.is-color h1{
+    color: white !important;
+}
+.fine{ font-weight: 200 !important; }
+
+/* ..................................... 
+
+navegação
+
+..................................... */
+
+.nav{
+    text-align: center;
+    background-color: var(--color3) !important;
+    width: 100%;
+    height: 140px;
+    position: fixed;
+    z-index: 99;
+    border-bottom: 1px solid hotpink;
+}
+
+/* ..................................... 
+
+página inicial
+
+..................................... */
+
+.ecom-paginainicial-listaprodutos{
+    text-align: center;
+}
+.ecom-paginainicial-listaprodutos li{
+    display: inline-block;
+    padding-right: 1px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.ecom-paginainicial-listaprodutos img{ 
+    width: 330px;
+    height: auto;
+}
+.ecom-paginainicial-produto{
+    text-align: center;
+    width: 100%;
+}
+.ecom-paginainicial-produto-titulo{
+    font-size: 20px;
+}
+.ecom-paginainicial-produto-clear{
+    height: 20px;
+}
+
+
+/* ..................................... 
+
+Página de Produto
+..................................... */
+
+.woocommerce-breadcrumb{
+    padding-left: 30px !important;
+    padding-top: 20px !important;
+    padding-bottom: 6px !important;
+}
+
+/* ..................................... 
+
+Rodapé
+
+..................................... */
+
+.ecom-footer{
+    background-color: var(--color1) !important;
+    color: aliceblue;
+    width: 100%;
+    height: 380px;
+    padding: 50px;
+}
+.ecom-footer hr{
+    border-top: 1px dotted var(--color2);
+    background-color: transparent !important;
+    width: 50%;
+}
+.ecomm-footer-sobre{
+    font-size: 14px;
+    text-align: justify-all;
+    width: 90%;
+}
+.ecomm-footer-copyright{
+    font-size: 14px;
+    color: lightpink !important;
+}
+.ecom-footer-menus li{
+    margin-bottom: 15px;
+}
+.ecom-footer-menus a{
+    color: var(--color2) !important;
+    text-decoration: underline;
+    transition: color .5s ease-out;
+    -moz-transition: color .5s ease-out;
+    -webkit-transition: color .5s ease-out;
+    -o-transition: color .5s ease-out;
+}
+.ecom-footer-menus a:hover{
+    color: rosybrown !important;
+}
+.ecom-footer-socialmedia li{
+    display: inline;
+}
+
+.ecom-footer-socialmedia img{
+    filter: invert(100%);
+    width: 25%;
+}
