@@ -69,10 +69,37 @@ navegação
     text-align: center;
     background-color: var(--color3) !important;
     width: 100%;
-    height: 140px;
+    height: 180px;
     position: fixed;
-    z-index: 99;
+    z-index: 98;
     border-bottom: 1px solid hotpink;
+}
+.nav li{
+    display: inline;
+    list-style: none !important;
+    padding-left: 20px;
+}
+.nav li a{
+    font-size: 22px !important;
+    color: lightpink;
+}
+.nav-cliente{
+    position: fixed;
+    right: 30px;
+    z-index: 99;
+    font-size: 12px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.nav-cliente a{
+    color: floralwhite;
+}
+.nav-cliente ul li{
+    display: inline;
+    padding-right: 15px;
+}
+.nav-cliente-hello{
+    color: wheat;
 }
 
 /* ..................................... 
@@ -130,6 +157,8 @@ Rodapé
     width: 100%;
     height: 380px;
     padding: 50px;
+    text-transform: uppercase;
+    font-size: 12px;
 }
 .ecom-footer hr{
     border-top: 1px dotted var(--color2);
@@ -138,12 +167,13 @@ Rodapé
 }
 .ecomm-footer-sobre{
     font-size: 14px;
-    text-align: justify-all;
-    width: 90%;
+    width: 80%;
+    text-transform: none !important;
 }
 .ecomm-footer-copyright{
     font-size: 14px;
     color: lightpink !important;
+    text-transform: none !important;
 }
 .ecom-footer-menus li{
     margin-bottom: 15px;
@@ -166,4 +196,14 @@ Rodapé
 .ecom-footer-socialmedia img{
     filter: invert(100%);
     width: 25%;
+}
+
+
+/* ..................................... 
+
+Alterar no WooCommerce
+
+..................................... */
+.woocommerce-tabs{
+    padding: 70px;
 }

@@ -12,34 +12,36 @@ if ( ! defined( 'ABSPATH' ) ) {
 <footer id="site-footer" class="ecom-footer" role="contentinfo">
     <div class="columns">
         <div class="column is-6">
-            Sobre
+            SOBRE
             <p>&nbsp;</p>
             <p class="ecomm-footer-sobre">
-                Somos um recommerce de acessórios de luxo. Temos como objetivo criar uma excelência no serviço de consignação, estendendo a vida útil dos produtos e promovendo a economia circular a fim de diminuir os impactos dessa indústria no planeta. Nossa equipe é especializada em curadoria, autenticação e higienização a fim de disponibilizar produtos em excelente estado. O que nos une é o amor pela moda, e o desejo de ressignificar nosso consumo. 
+                A linda Boutique Store é um ecomerce especializado em vendas de roupas femininas.
+                Foi criada em 2018 com vendas on-line pelo Instagram. Em 2020 abrimos também nossa loja fisica na cidade de Franca-sp. Em 2021 criamos nosso Site lindo para atender com muita comodidade e carinho.
+                Nosso maior objetivo é ajudar nossas clientes a acentuarem e valorizarem sua beleza através dos nossos looks. 
             </p>
             <hr>
             <p class="ecomm-footer-copyright">
-                Rua Dias Ferreira, 175 / 306 Leblon, Rio de Janeiro - RJ, 22431-050
+                Av. Dr. Hélio Palermo, 2867 - Estação, Franca - SP, 14405-130
                 <br>
-                CNPJ: 36.833.859/0001-29
+                CNPJ: 0
             </p>
         </div>
 
         <div class="column">
-            Como Funciona?
+            COMO FUNCIONA
             <p>&nbsp;</p>
             <ul class="ecom-footer-menus">
-                <li><a>FAQ</a></li>
-                <li><a>Política de Privacidade</a></li>
-                <li><a>Termos de Uso</a></li>
-                <li><a>Devoluções</a></li>
-                <li><a>Formas de Pagamento</a></li>
+                <li><a href="https://lindaboutiquestore.com.br/quem-somos/">Quem Somos</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Política de Privacidade</a></li>
+                <li><a href="">Termos de Uso</a></li>
+                <li><a href="">Devoluções</a></li>
+                <li><a href="">Formas de Pagamento</a></li>
             </ul>
-
         </div>
 
         <div class="column">
-            Redes Sociais
+            REDES SOCIAIS
             <p>&nbsp;</p>
             <ul class="ecom-footer-socialmedia">
                 <li>
